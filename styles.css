@@ -272,6 +272,13 @@ button {
   display: block;
 }
 
+.section-heading.narrow .section-kicker {
+  display: block;
+  margin: 0 0 12px;
+  line-height: 1.25;
+  position: static;
+}
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
