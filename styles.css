@@ -827,3 +827,10 @@ button {
     position: static;
   }
 }
+
+/* Keep the newly replaced activity and anime acrylic photos fully visible. */
+.category-card.keep-all img {
+  object-fit: contain;
+  object-position: center center !important;
+  background: #f1e7d8;
+}
